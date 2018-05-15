@@ -1,0 +1,131 @@
+body{
+    background:url(bg2.jpg) center center fixed;
+    background-color: #fff;
+    font-family: 'Fresca', sans-serif;
+}
+
+/*Home page */
+#loginDiv{
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px 0;
+    background: #eee;
+    opacity: 0.9;
+}
+
+#loginDiv h1, #dataCollectionDiv h2, h2{
+    color: #449D44;
+	font-family: 'Nova Oval', cursive;
+}
+
+#loginDiv .btn, #dataCollectionDiv .btn{
+    margin: 20px;
+    width: 130px;
+}
+
+/*Main Page after log in*/
+#dataCollectionDiv{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background: #eee;
+    opacity: 0.9;
+}
+
+
+#dataCollectionDiv input, select{
+    margin-top:10px;
+}
+
+hr{
+    border:solid 1px #449D44;
+}
+
+
+
+/*footer*/
+footer{
+    position: fixed;
+    height: 40px;
+    bottom: 0;
+    background: #449D44;
+    color: #fff;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+footer a{
+    color:#fff;
+    text-decoration: underline;
+}
+
+
+/*Styling for reports page*/
+.reports{
+    margin:20px 10px;
+    text-align: center;
+}
+
+.reports #searchform{
+    padding: 2px 5px;
+    margin: 5px;
+    width: 100%;
+}
+
+.reports h2, th{
+    color:#449D44;
+}
+
+
+
+/*Create New Agent*/
+#newuser{
+    margin:;
+}
+
+/*Side Navigation*/
+.navspan{
+    margin-top: 50px;
+}
+.sidenav {
+    height: 40%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #eee;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border:solid 1px #eee;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
